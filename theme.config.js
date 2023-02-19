@@ -4,8 +4,9 @@ export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Jeriko Ichtus Seo.
-      <p>Built by My Own Mind & </p>
-      <a href="https://nextra.site/">Nextra(MDX Support)</a>
+      <a href="https://nextra.site/">
+        Built by My Own Mind & Nextra(MDX Support)
+      </a>
       <style jsx>{`
         a {
           float: right;

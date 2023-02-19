@@ -3,8 +3,8 @@ const YEAR = new Date().getFullYear()
 export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Jeriko Ichtus Seo.
-      <a href="/">Built By Nextra</a>
+      <time>{YEAR}</time> © Jeriko Ichtus Seo. Built by My Own Mind &{' '}
+      <a href="https://nextra.site/">Nextra(MDX Support)</a>
       <style jsx>{`
         a {
           float: right;

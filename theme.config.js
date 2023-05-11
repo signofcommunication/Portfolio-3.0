@@ -5,7 +5,7 @@ export default {
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Jeriko Ichtus Seo.
       <p>
-        Built by My <b>Own Mind</b> & <b>Nextra</b>
+        Built by <b>Nextra</b>
       </p>
       <style jsx>{`
         p {

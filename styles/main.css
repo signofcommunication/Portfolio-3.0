@@ -138,3 +138,8 @@ img.next-image {
 .cv a {
   text-decoration: none;
 }
+
+.projects i {
+  font-size: 20px;
+  margin-right: 10px;
+}

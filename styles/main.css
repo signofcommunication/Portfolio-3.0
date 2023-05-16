@@ -63,3 +63,18 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.range {
+  color: #5e5e5e;
+}
+
+.company-name {
+  font-weight: bold !important;
+  color: rgb(255, 255, 255);
+}
+
+.exp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

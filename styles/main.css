@@ -90,7 +90,7 @@ img.next-image {
 }
 
 
-/* CSS */
+/* Resume Button CSS */
 .cv {
   appearance: none;
   background-color: transparent;
@@ -142,4 +142,15 @@ img.next-image {
 .projects i {
   font-size: 20px;
   margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+ #range-2 {
+  width: 70%;
+  text-align: right;
+ }
+
+ #exp-2 {
+  align-items: start;
+ }
 }

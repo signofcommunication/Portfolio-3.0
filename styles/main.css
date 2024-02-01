@@ -89,18 +89,25 @@ img.next-image {
   margin: 0 10px;
 }
 
+.straight-line {
+  border: 1px solid #333; /* Solid dark gray line */
+  height: 30px; /* Adjust the height of the line */
+  width: 1px;
+  margin: auto;
+}
 
 /* Resume Button CSS */
 .cv {
   appearance: none;
   background-color: transparent;
-  border: 2px solid #1A1A1A;
+  border: 2px solid #1a1a1a;
   border-radius: 15px;
   box-sizing: border-box;
-  color: #3B3B3B;
+  color: #3b3b3b;
   cursor: pointer;
   display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
@@ -111,7 +118,7 @@ img.next-image {
   padding: 16px 24px;
   text-align: center;
   text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -125,7 +132,7 @@ img.next-image {
 
 .cv:hover {
   color: #fff;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
@@ -145,12 +152,12 @@ img.next-image {
 }
 
 @media (max-width: 600px) {
- #range-2 {
-  width: 70%;
-  text-align: right;
- }
+  #range-2 {
+    width: 70%;
+    text-align: right;
+  }
 
- #exp-2 {
-  align-items: start;
- }
+  #exp-2 {
+    align-items: start;
+  }
 }
